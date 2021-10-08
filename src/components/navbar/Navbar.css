@@ -1,0 +1,69 @@
+.navbarContaine {
+  width: 100%;
+  height: 50px;
+  background-color: cadetblue;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.topIconsLeft{
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(232, 236, 243);
+    cursor: pointer;
+    
+}
+
+.navBarleft,
+.navBarRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.navBarCenter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.socialIcons{
+    list-style-type: none;
+    padding: 20px;
+    font-weight: 600;
+}
+
+
+.topList{
+    padding: 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+.profilePic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+
+.topSearch{
+    cursor: pointer;
+    font-size: 18px;
+    color : white;
+   margin-left: 20px;
+}
+
+.navBarRight{
+    
+}
